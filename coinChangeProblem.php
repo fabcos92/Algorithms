@@ -3,10 +3,10 @@
 /*
 Dynamic Programming Solution to the Coin Changing Problem
 
-An optimal solution to finding all the making change for n cents using coins of denominations from coins list of length m.
+An optimal solution to finding the number of ways of making change for n cents using coins of denominations from coins list of length m.
 */
 
-function waysOfChange($n, $m, $coins)
+function coinChangeProblem($n, $m, $coins)
 {
     $table = [];
 
