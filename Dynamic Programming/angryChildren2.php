@@ -1,4 +1,7 @@
 <?php
+/*
+https://www.hackerrank.com/challenges/angry-children-2
+*/
 function minUnfairness($packets, $children, $candies)
 {
     $unfairness = $sum = 0;
